@@ -2,5 +2,9 @@ module ApplicationHelper
     def data_br(data_us)
      
         data_us.strftime("%d/%m/%Y")
-    end    
+    end
+    
+    def application_name
+        "Crypto Wallet APP"
+    end   
 end

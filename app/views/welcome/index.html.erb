@@ -1,7 +1,16 @@
-<h1>Welcome/h1>
+<h1>Welcome to <%=application_name %></h1>
+
 <p> <strong> Today is: </strong> <%= data_br(Date.today) %> </p>
+
+
 <ul>
     <li>
     <%=link_to 'Register new Coins!', coins_path %>
+    </li>
+    <li>
+    <p>Developed by <strong> <%=@name %> </strong> </p>
+    </li>
+    <li>
+    <p>Using <strong> <%=@course %> </strong> </p>
     </li>
 <ul>        
