@@ -2,15 +2,12 @@
 
 <p> <strong> Today is: </strong> <%= data_br(Date.today) %> </p>
 
+<%= render "menu" %>
 
-<ul>
-    <li>
-    <%=link_to 'Register new Coins!', coins_path %>
-    </li>
-    <li>
+<%# Render brings the _FILENAME as a partial, works like an react component%>
+
     <p>Developed by <strong> <%=@name %> </strong> </p>
-    </li>
-    <li>
+
+
     <p>Using <strong> <%=@course %> </strong> </p>
-    </li>
-<ul>        
+
