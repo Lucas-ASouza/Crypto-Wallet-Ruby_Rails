@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class MiningTypeTest < ActiveSupport::TestCase
+class MiningtypeTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

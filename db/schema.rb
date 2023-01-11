@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_01_11_134221) do
+ActiveRecord::Schema.define(version: 2023_01_11_150056) do
 
   create_table "coins", force: :cascade do |t|
     t.string "description"
@@ -20,8 +20,9 @@ ActiveRecord::Schema.define(version: 2023_01_11_134221) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "mining_types", force: :cascade do |t|
-    t.string "name"
+  create_table "miningtypes", force: :cascade do |t|
+    t.string "description"
+    t.string "string"
     t.string "acronym"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
