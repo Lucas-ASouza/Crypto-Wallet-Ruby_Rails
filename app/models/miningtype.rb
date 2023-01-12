@@ -1,2 +1,0 @@
-class Miningtype < ApplicationRecord
-end

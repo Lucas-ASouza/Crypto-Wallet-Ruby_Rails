@@ -1,10 +1,10 @@
-<%= form_with(model: miningtype, local: true) do |form| %>
-  <% if miningtype.errors.any? %>
+<%= form_with(model: mining_type, local: true) do |form| %>
+  <% if mining_type.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(miningtype.errors.count, "error") %> prohibited this miningtype from being saved:</h2>
+      <h2><%= pluralize(mining_type.errors.count, "error") %> prohibited this mining_type from being saved:</h2>
 
       <ul>
-      <% miningtype.errors.full_messages.each do |message| %>
+      <% mining_type.errors.full_messages.each do |message| %>
         <li><%= message %></li>
       <% end %>
       </ul>
@@ -14,11 +14,6 @@
   <div class="field">
     <%= form.label :description %>
     <%= form.text_field :description %>
-  </div>
-
-  <div class="field">
-    <%= form.label :string %>
-    <%= form.text_field :string %>
   </div>
 
   <div class="field">

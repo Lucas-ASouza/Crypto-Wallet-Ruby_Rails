@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :miningtypes
+  resources :mining_types
   get 'welcome/index', to: "welcome#index"
   get "home", to: "welcome#index"
   

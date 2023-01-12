@@ -58,7 +58,7 @@ namespace :dev do
      ]
 
      mining_types.each do |mining_type|
-       Miningtype.find_or_create_by!(mining_type)
+      MiningType.find_or_create_by!(mining_type)
      end
    end 
   end
