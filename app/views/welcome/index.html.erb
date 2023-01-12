@@ -1,7 +1,7 @@
 <h1>Welcome to <%=application_name %></h1>
-
-<p> <strong> Today is: </strong> <%= data_br(Date.today) %> </p>
-
+<p>The language used in this application is: <strong><%= locale(I18n.locale) %></strong> </p>
+<p> <strong> Today is: </strong> <%= I18n.l(Date.today) %> </p>
+<p><%= I18n.t('hello')%></p>
 <%= render "menu" %>
 
 <%# Render brings the _FILENAME as a partial, works like an react component%>
