@@ -30,6 +30,9 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  welcome: "Welcome to "
+  intro: "This is Crypto Wallet, an training APP I made to learn ruby and rails framework"
+  do: "You can create, edit and delete crypto coins at will."
   actual_locale: "English (International)"
   hello: "Hello world"
   links: 

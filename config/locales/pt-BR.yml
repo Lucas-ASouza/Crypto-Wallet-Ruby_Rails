@@ -1,4 +1,7 @@
 pt-BR:
+  welcome: "Bem Vindo ao "
+  intro: "Esse é a Crypto wallet, um APP que eu desenvolvi para aprender ruby on rails"
+  do: "Você pode criar, editar e remover crypto moedas a vontade!!"
   actual_locale: "Português Brasileiro"
   hello: "Olá mundo"
   links: 
