@@ -20,6 +20,9 @@
   <ul class="nav justify-content-end">
 
   <li class="nav-item">
+     <%= link_to 'Home', root_path, class:"nav-link" %> 
+  </li>
+  <li class="nav-item">
      <%= link_to 'Português', root_path(locale: 'pt-BR'), class:"nav-link" %> 
   </li>
   <li class="nav-item">
@@ -30,6 +33,6 @@
           <%= yield %>
     </div>      
   </div>
-  <script>$.notify("Worked!!!", "success");</script>
+  <script>$.notify("Worked!!!", "success",{position:right bottom});</script>
   </body>
 </html>
