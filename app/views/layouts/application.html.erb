@@ -26,7 +26,9 @@
      <%= link_to 'English', root_path(locale: 'en'), class:"nav-link" %> 
   </li>
 </ul>
-        <%= yield %>
+    <div class="container">
+          <%= yield %>
+    </div>      
   </div>
   <script>$.notify("Worked!!!", "success");</script>
   </body>
