@@ -10,3 +10,10 @@ pt-BR:
     show: "Mostrar"
     new: "Novo"
     destroy: "Deletar"
+    back: "Voltar"
+  create:
+    coin: "Criando nova Moeda"
+    mining: "Criando novo Tipo de Mineração"
+  modify:
+    coin: "Editando uma Moeda"
+    mining: "Editing um Tipo de Mineração"  

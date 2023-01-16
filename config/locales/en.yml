@@ -41,4 +41,11 @@ en:
     show: "Show"
     new: "New"
     delete: "Delete"
+    back: "Return"
+  create:
+    coin: "Creating a new coin"
+    mining: "Creating a new mining type"  
+  modify:
+    coin: "Editing an Coin"
+    mining: "Editing an Mining Type"  
 
